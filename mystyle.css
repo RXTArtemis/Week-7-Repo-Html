@@ -2,77 +2,101 @@
 body{
     width: 440px;
     height: 440px;
-    background-color: rgb(152, 208, 241);
-    background-image: radial-gradient(rgb(227, 49, 91) 10%, transparent 11%);
-        radial-gradient(#2d2df4 10%, transparent 11%);
+    background-color: rgb(131, 201, 241);
+    background-image: radial-gradient(rgb(247, 103, 127) 10%, transparent 11%),
+        radial-gradient(#f8f7f3 10%, transparent 11%);
     background-size: 60px 60px;
-    background-position: 0 0, 30px 30 px;
+    background-position: 0 0, 30px 30px;
     background-repeat: repeat;
-}
-
-#h1{
-    font-size: large;
-    color:rgb(rgb(185, 64, 92));
-    height:auto;
-    text-align:center;
     
 }
-#h2{
-    font-size: medium;
-    color:rgb(rgb(185, 64, 92));
+.white-background{
+    background:rgba(13, 162, 182,.7);
+    
+}
+
+h1{
+
+    color:rgb(247, 236, 187);
     height:auto;
     text-align:center;
+    font-style: oblique;
+    
+    
 }
-#div{
-    font-size: 40px;
-    color:aquamarine;
+#h2-design{
+    font-size: 20px;
+    color:rgb(247, 236, 187);
+    height:auto;
+    text-align:center;
+    font-style: oblique;
+    
+}
+
+#myDiv{
+    font-size: 25px;
+    color: rgb(241, 194, 210);
     text-align: center;
-
+    font-style: oblique;
 }
 
-.table{
+table{
 border-collapse: collapse;
 width:100%;
+
+}
+#row-deco{
+    font-size: 20px;
+    color:rgb(247, 236, 187);
+    height:auto;
+    text-align:center;
+    font-style: oblique;
 }
 
-th, td{
-padding: 5px;
-text-align: center;
-text-decoration: aliceblue;
-border-bottom: 1px,palevioletred;
+#td-deco{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-bottom: 1px;
+    font-size: 18px;
+    color: rgb(236, 52, 114);
+    text-align: center;
+    font-style: oblique; 
 }
 
 .tr:nth-child(even){
-    background-color: rgb(237, 197, 67);
+    background-color: rgb(241, 194, 210);
 }
 
 .tr:hover{
     background-color: blue;
 }
 
-.form{
+.form-design{
     padding: 8px;
     text-align: center;
     font-size: 30px;
-    color:aquamarine;
+    
+}
+.clearfix:after{
+ content:" ";
+ display:table-column;
+ clear:both;
 }
 
 img{
-    .clearfix{
-        display:block;
-        zoom:1;
-        &:after{
-        font-size:0;
-        height:0;
-        clear: both;
-        visibility:hidden;
-        }
-     }
+   display:flex;
+   margin: 0px 15px;
+   border: 30px;
+}
         
+
+
+p{
+    text-align:right;
+    font-style:oblique;
+    font-size: 20px;
+    color:rgb(241, 194, 210);
+
 }
 
-#paragraph{
-    text-align: center;
-    font-size: 30px;
-    color:aquamarine;
-}
