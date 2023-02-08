@@ -64,14 +64,6 @@ width:100%;
     font-style: oblique; 
 }
 
-.tr:nth-child(even){
-    background-color: rgb(241, 194, 210);
-}
-
-.tr:hover{
-    background-color: blue;
-}
-
 .form-design{
     padding: 8px;
     text-align: center;
